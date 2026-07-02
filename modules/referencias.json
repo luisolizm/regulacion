@@ -1,0 +1,72 @@
+{
+  "LSE": {
+    "instrumento": "Ley del Sector Eléctrico (LSE)",
+    "dof": "18/03/2025",
+    "relevancia": "Ley marco post-reforma 2024. Define las figuras de generación y el umbral de 0.7 MW para permiso."
+  },
+  "RLSE": {
+    "instrumento": "Reglamento de la LSE (RLSE)",
+    "dof": "03/10/2025",
+    "relevancia": "Desarrolla el permiso de generación, la interconexión, el respaldo propio (BESS) y las Redes Particulares del autoconsumo."
+  },
+  "DACG-Permisos": {
+    "instrumento": "DACG de Permisos de Generación y Almacenamiento",
+    "dof": "23/10/2025",
+    "relevancia": "Términos legales, técnicos y financieros y formatos (CNE_Electricidad_01/02) para los permisos."
+  },
+  "DACG-Autoconsumo": {
+    "instrumento": "DACG para regular la figura de Autoconsumo",
+    "dof": "12/12/2025",
+    "relevancia": "Autoconsumo aislado e interconectado, Registro de Autoconsumo y contrato de venta de excedentes a CFE."
+  },
+  "Acuerdo-AC-0.7-20MW": {
+    "instrumento": "Acuerdo de requisitos para autoconsumo interconectado 0.7–20 MW",
+    "dof": "06/08/2025",
+    "relevancia": "Requisitos aliviados para el permiso de autoconsumo interconectado 0.7–20 MW (formato 07/10/2025)."
+  },
+  "DACG-Cogeneracion": {
+    "instrumento": "DACG para generación en modalidad de Cogeneración",
+    "dof": "16/04/2026",
+    "relevancia": "Vincular una demanda térmica al permiso, justificar la capacidad, P&ID y balance de energía, perfil anual antes del 31 de enero."
+  },
+  "DACG-SAEE": {
+    "instrumento": "DACG de Integración de Sistemas de Almacenamiento (SAEE)",
+    "dof": "16/04/2026",
+    "relevancia": "Integración de SAEE. El respaldo dentro de una central de autoconsumo se rige por estas disposiciones."
+  },
+  "VUA": {
+    "instrumento": "Lineamientos de la Ventanilla Única de Autoconsumo (VUA) — SENER",
+    "dof": "08/05/2026",
+    "relevancia": "Procedimiento unificado (SENER, CNE, CENACE, CFE) que atiende de forma prioritaria, expedita y SIMULTÁNEA los trámites de autoconsumo 0.7–20 MW, con plazos legales (MISSE 20 dh, Estudios 30 dh, Estudio Rápido 10 dh, contrato 10 dh). Alternativa a la Vía Ordinaria."
+  },
+  "DACG-GD-2017": {
+    "instrumento": "DACG de Generación Distribuida y Generación Limpia Distribuida (legacy)",
+    "dof": "07/03/2017",
+    "relevancia": "Marco previo: esquemas de contraprestación y contrato de interconexión para centrales <0.5 MW. Aplica a exenta hasta su sustitución."
+  },
+  "Modelo-Interconexion": {
+    "instrumento": "Modelos de contrato de interconexión / conexión y aportaciones (CNE)",
+    "dof": "17/03/2026",
+    "relevancia": "Modelos de contrato que la Transportista o Distribuidora celebra tras la instrucción del CENACE."
+  },
+  "Planeacion-Vinculante": {
+    "instrumento": "Planeación vinculante / Ventanilla de Energía (SENER–CNE)",
+    "dof": "—",
+    "relevancia": "Los permisos e interconexiones se priorizan conforme a la planeación vinculante del sector."
+  },
+  "MIA-LGEEPA": {
+    "instrumento": "LGEEPA — Manifestación de Impacto Ambiental (SEMARNAT)",
+    "dof": "—",
+    "relevancia": "Evaluación de impacto ambiental o su exención."
+  },
+  "ASEA-Gas": {
+    "instrumento": "Normatividad ASEA / CNE para gas natural",
+    "dof": "—",
+    "relevancia": "Aprovechamiento de gas, tie-in a infraestructura existente y construcción de acometida/ERM."
+  },
+  "Municipal": {
+    "instrumento": "Reglamentos estatales y municipales",
+    "dof": "—",
+    "relevancia": "Uso de suelo, licencia de construcción y protección civil según la jurisdicción."
+  }
+}
