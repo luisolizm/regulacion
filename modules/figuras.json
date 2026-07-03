@@ -1,0 +1,147 @@
+{
+  "solar_gd": {
+    "nombre": "Solar — Generación Distribuida (< 0.7 MW)",
+    "nombre_corto": "Solar GD",
+    "energia": "Solar",
+    "modalidad": "Generación Exenta (< 0.7 MW)",
+    "descripcion": "Central solar exenta de permiso (techo, 100–699 kW), interconectada a la RGD bajo esquema de contraprestación.",
+    "tags": [
+      "todos",
+      "solar",
+      "exenta",
+      "interconexion_gd",
+      "const_gd"
+    ],
+    "vua_elegible": false
+  },
+  "solar_ac_aislado": {
+    "nombre": "Solar — Autoconsumo Aislado (≥ 0.7 MW)",
+    "nombre_corto": "Solar AC Aislado",
+    "energia": "Solar",
+    "modalidad": "Autoconsumo Aislado",
+    "descripcion": "Central solar ≥0.7 MW sin conexión a la red; permiso de generación CNE.",
+    "tags": [
+      "todos",
+      "solar",
+      "permiso_cne",
+      "aislado",
+      "autoconsumo",
+      "const_solar",
+      "obra_mayor"
+    ],
+    "vua_elegible": true
+  },
+  "solar_ac_interconectado": {
+    "nombre": "Solar — Autoconsumo Interconectado (≥ 0.7 MW)",
+    "nombre_corto": "Solar AC Interc.",
+    "energia": "Solar",
+    "modalidad": "Autoconsumo Interconectado",
+    "descripcion": "Central solar ≥0.7 MW interconectada; permiso CNE + Estudio Rápido + contrato. Respaldo BESS obligatorio (30% / 3 h).",
+    "tags": [
+      "todos",
+      "solar",
+      "permiso_cne",
+      "interconectado",
+      "conexion_red",
+      "respaldo_bess",
+      "autoconsumo",
+      "const_solar",
+      "obra_mayor"
+    ],
+    "vua_elegible": true
+  },
+  "gas_aislado_con_gas": {
+    "nombre": "Gas (Cogeneración) — Autoconsumo Aislado, CON suministro de gas",
+    "nombre_corto": "Cogen Aislado (con gas)",
+    "energia": "Gas",
+    "modalidad": "Cogeneración — Autoconsumo Aislado",
+    "descripcion": "Cogeneración a gas ≥0.7 MW, aislada, con suministro de gas ya contratado. Permiso CNE con demanda térmica vinculada.",
+    "tags": [
+      "todos",
+      "gas",
+      "con_gas",
+      "permiso_cne",
+      "aislado",
+      "cogeneracion",
+      "autoconsumo",
+      "const_gas",
+      "obra_mayor"
+    ],
+    "vua_elegible": true
+  },
+  "gas_aislado_sin_gas": {
+    "nombre": "Gas (Cogeneración) — Autoconsumo Aislado, SIN suministro de gas",
+    "nombre_corto": "Cogen Aislado (sin gas)",
+    "energia": "Gas",
+    "modalidad": "Cogeneración — Autoconsumo Aislado",
+    "descripcion": "Igual que el anterior pero hay que gestionar el suministro y construir la acometida/ducto de gas.",
+    "tags": [
+      "todos",
+      "gas",
+      "sin_gas",
+      "permiso_cne",
+      "aislado",
+      "cogeneracion",
+      "autoconsumo",
+      "const_gas",
+      "obra_mayor"
+    ],
+    "vua_elegible": true
+  },
+  "gas_interconectado_con_gas": {
+    "nombre": "Gas (Cogeneración) — Autoconsumo Interconectado, CON suministro de gas",
+    "nombre_corto": "Cogen Interc. (con gas)",
+    "energia": "Gas",
+    "modalidad": "Cogeneración — Autoconsumo Interconectado",
+    "descripcion": "Cogeneración a gas ≥0.7 MW interconectada; permiso CNE + Estudio Rápido + contrato + venta de excedentes. Gas contratado.",
+    "tags": [
+      "todos",
+      "gas",
+      "con_gas",
+      "permiso_cne",
+      "interconectado",
+      "conexion_red",
+      "cogeneracion",
+      "autoconsumo",
+      "const_gas",
+      "obra_mayor"
+    ],
+    "vua_elegible": true
+  },
+  "gas_interconectado_sin_gas": {
+    "nombre": "Gas (Cogeneración) — Autoconsumo Interconectado, SIN suministro de gas",
+    "nombre_corto": "Cogen Interc. (sin gas)",
+    "energia": "Gas",
+    "modalidad": "Cogeneración — Autoconsumo Interconectado",
+    "descripcion": "El escenario más completo: cogeneración interconectada que además construye la acometida/ducto de gas.",
+    "tags": [
+      "todos",
+      "gas",
+      "sin_gas",
+      "permiso_cne",
+      "interconectado",
+      "conexion_red",
+      "cogeneracion",
+      "autoconsumo",
+      "const_gas",
+      "obra_mayor"
+    ],
+    "vua_elegible": true
+  },
+  "bess": {
+    "nombre": "BESS — Centro de Carga (BESS-CC)",
+    "nombre_corto": "BESS-CC",
+    "energia": "BESS",
+    "modalidad": "Almacenamiento — Centro de Carga",
+    "descripcion": "Almacenamiento detrás del medidor, sin generación y sin permiso. Manual de Interconexión (Estudio Rápido + estudios condicionales, sin obras de refuerzo).",
+    "tags": [
+      "todos",
+      "bess",
+      "conexion_red",
+      "almacenamiento",
+      "const_bess",
+      "obra_mayor"
+    ],
+    "vua_elegible": false
+  }
+}
